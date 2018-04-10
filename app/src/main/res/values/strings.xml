@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">wmMovies</string>
+    <string name="movie_name">Movie title</string>
+    <string name="movie_description">Movie description</string>
+    <string name="movie_image_url">Image URL</string>
+    <string name="show">show</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="movie_created">Movie Created</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="What_Action">What would you like to do?</string>
+    <string name="go">GO</string>
+    <string name="search">search</string>
+    <string name="add_internet">Add  a movie from the internet</string>
+    <string name="add_manually">Add a movie manually</string>
+    <string name="exit">Exit</string>
+    <string name="delete_all">Delete all</string>
+    <string name="go_to_page">Go To Page</string>
+    <string name="movie_page">Movie Page</string>
+    <string name="share">share</string>
+    <string name="shares">Share</string>
+    <string name="add_a_movie">Add a Movie</string>
+    <string name="setting">setting</string>
+    <string name="random_movie">Random Movie</string>
+    <string name="toast">Movie title must be entered</string>
+    <string name="library_is_empty">Your Library is empty</string>
+    <string name="watch">Did you watch it?</string>
+    <string name="trailer">Trailer</string>
+
+</resources>

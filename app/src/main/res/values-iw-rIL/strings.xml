@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">wmMovies</string>
+    <string name="movie_name">שם הסרט</string>
+    <string name="movie_description">תיאור הסרט</string>
+    <string name="movie_image_url">קישור לתמונה</string>
+    <string name="show">הצג</string>
+    <string name="ok">אוקי</string>
+    <string name="cancel">ביטול</string>
+    <string name="movie_created">סרט נוצר</string>
+    <string name="edit">ערוך</string>
+    <string name="delete">מחק</string>
+    <string name="What_Action">איזה פעולה תרצה/י לבצע?</string>
+    <string name="go">התחל</string>
+    <string name="search">חיפוש</string>
+    <string name="add_internet">הוספת סרט מאינטרנט</string>
+    <string name="add_manually">הוספת סרט באופן ידני</string>
+    <string name="exit">יציאה</string>
+    <string name="delete_all">מחק הכל</string>
+    <string name="go_to_page">לך לעמוד</string>
+    <string name="movie_page">עמוד הסרט</string>
+    <string name="share">שתף</string>
+    <string name="shares">שתף</string>
+    <string name="add_a_movie">הוסף סרט</string>
+    <string name="setting">הגדרות</string>
+    <string name="random_movie">סרט רנדומלי</string>
+    <string name="toast">שם הסרט הכרחי ליצירת סרט</string>
+    <string name="library_is_empty">הספריה שלך ריקה</string>
+    <string name="watch">האם ראית את הסרט?</string>
+    <string name="trailer">טריילר</string>
+
+</resources>

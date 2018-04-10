@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <item
+        android:id="@+id/menuItemSettings"
+        android:icon="@raw/add_button"
+        android:title="@string/add_a_movie"
+        app:showAsAction="always"
+
+        >
+        <menu>
+            <item
+                android:id="@+id/addInternet"
+                android:title="@string/add_internet" />
+
+            <item
+                android:id="@+id/addManuall"
+                android:title="@string/add_manually" />
+
+
+        </menu>
+
+
+    </item>
+
+
+    <item
+        android:id="@+id/groupColors"
+        android:icon="@raw/settings_button"
+        android:title="@string/setting"
+        app:showAsAction="always"
+
+        >
+        <menu>
+            <item
+                android:id="@+id/exit"
+                android:title="@string/exit" />
+
+            <item
+                android:id="@+id/deleteAll"
+                android:title="@string/delete_all" />
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

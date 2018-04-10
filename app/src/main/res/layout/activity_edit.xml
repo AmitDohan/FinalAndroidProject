@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="amitdohan.johnbryce.finalproject.EditActivity">
+    <ScrollView
+        android:background="@raw/wm_background"
+        android:backgroundTint="@color/colorPrimary"
+        android:backgroundTintMode="screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/outside"
+    android:gravity="top|center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<HorizontalScrollView
+    android:gravity="left"
+    android:background="@drawable/buttons"
+    android:layout_marginTop="15sp"
+    android:layout_width="280sp"
+    android:layout_height="30sp"
+    >
+    <EditText
+        android:id="@+id/name"
+        android:background="@color/none"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:textColor="@color/black"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:hint="@string/movie_name"
+        android:textColorHint="@color/black"/>
+</HorizontalScrollView>
+    <ScrollView
+
+        android:paddingTop="15sp"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="15sp"
+        android:layout_width="280sp"
+        android:layout_height="170sp"
+        android:gravity="top"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        >
+        <EditText
+            android:id="@+id/description"
+            android:textColor="@color/black"
+            android:background="@color/none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movie_description"
+            android:textColorHint="@color/black"/>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:gravity="left"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="15sp"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:orientation="horizontal">
+        <Button
+            android:onClick="show"
+            android:textSize="12sp"
+            android:text="@string/show"
+            android:background="@drawable/buttons"
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:textColor="@color/black"/>
+        <HorizontalScrollView
+
+            android:layout_width="250sp"
+            android:layout_height="30sp"
+            >
+
+            <EditText
+                android:id="@+id/url"
+                android:background="@color/none"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:textColor="@color/black"
+                android:paddingLeft="15sp"
+                android:paddingRight="15sp"
+                android:hint="@string/movie_image_url"
+                android:textColorHint="@color/black"/>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center|top"
+        android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:onClick="onClick_ok"
+            android:text="@string/ok"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:background="@drawable/buttons"
+            android:onClick="onClick_Cancel"
+            android:text="@string/cancel"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="15sp"
+        android:background="@raw/default_movie_pic"
+        android:layout_width="280sp"
+        android:layout_height="145sp"
+        android:visibility="visible"/>
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
